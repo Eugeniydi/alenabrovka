@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+	<title>ALENABROVKA</title>
+	<meta name="viewport" content="width=device-width">
+	<link rel="icon" type="img/png" href="/favicon.png">
+	<meta property="og:image" content="img/dest/preview.jpg">
+	<link rel="stylesheet" href="css/app.min.css">
+	<link rel="stylesheet" href="css/jquery.fancybox.css">
+	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="css/slick-theme.css">
+	
+
+</head>
+
+<body>
+
+<div class="bg-body active"></div>
+
+<!-- modal windows -->
+<div class="modal modal-bid">
+	<h2 class="title">Забронируй место на курсе!</h2>
+	<div class="form-1 form">
+
+		<div class="field">
+			<input type="text" name="UserName" class="field-input required alphanumeric" placeholder="Имя" pattern="^[а-яА-ЯёЁa-zA-Z0-9\\s]+$">
+			<input type="phone" name="phone" class="field-input required phone" placeholder="Номер телефона" pattern="[+0-9]{10,}">
+		</div>
+		
+		<button class="main-btn save-button">Оставить заявку</button>
+		
+	</div>
+</div>
+
+<div class="modal modal-succes">
+	<div class="modal-wrap">
+
+		<h2 class="title">Спасибо, твоя заявка принята!</h2>
+		<p>Я свяжусь с тобой в ближайшее время!</p>
+		<div class="modal-img">
+			<img src="images/modal.svg" alt="mod">
+		</div>
+
+	</div>
+</div>
+<!-- end modal windows -->
+
+<!-- header -->
+<header class="header">
+	<div class="container decor-line">
+		<div class="header-top">
+		
+
+			<a href="#" class="logo"><img src="images/header/logo.svg" alt="logo"></a>
+
+			<!-- menu -->
+			<div class="top-mnu">
+				<button class="mnu-btn">
+					<span class="top-line btn-line"></span>
+					<span class="second-line btn-line"></span>
+					<span class="last-line btn-line"></span>
+				</button>
+			</div>
+
+			<nav class="menu">
+				<div class="menu-wrap">
+					<a href="#" class="menu-item about-itm active">Кто я</a>
+					<a href="#" class="menu-item courses-itm">Курсы</a>
+					<a href="#" class="menu-item gallery-itm">Галерея</a>
+					<a href="#" class="menu-item reviews-itm">Отзывы</a>
+					<a href="#" class="menu-item contacts-itm">Контакты</a>
+				</div>
+
+				<a href="#" class="logo-menu"><img src="images/header/logo.svg" alt="logo"></a>
+
+			</nav>
+			<!-- end menu -->
+		</div>
+	
+
+		<div class="header-bottom">		
+			<h1>Запишись на курс прямо сейчас и получи методическое пособие по оформлению бровей в подарок!</h1>
+			<button class="main-btn bid">Оставить заявку</button>
+			<div class="bg-img">
+				<img src="images/header/wooman.png" class="bg-desktop" alt="wooman">
+				<img src="images/header/woom-phone.png" class="bg-phone" alt="wooman">
+			</div>
+		</div>
+	</div>
+</header>
+<!-- end header -->
+<!-- about -->
+<section class="about" id="about">
+	<div class="container decor-line">
+
+		<h2 class="title">Кто я?</h2>
+		<div class="about-text">
+			<span>Давай знакомится! Меня зовут Алена и я хочу познакомить тебя с миром бровей!</span>
+			<p>Шаблонные брови-не мой стиль! Я за сохранение индивидуальности каждого клиента.
+			</p>
+		</div>
+
+		<div class="about-item">
+			<div class="about-img"><img src="images/about/01.svg" alt="pic"></div>
+			<p>Я практикующий мастер-тренер в индустрии «бровистики»</p>
+		</div>
+
+		<div class="about-item">
+			<div class="about-img"><img src="images/about/02.svg" alt="pic"></div>
+			<p>Начала свой пусть в индустрии красоты более 5 лет назад</p>
+		</div>
+
+		<div class="about-item">
+			<div class="about-img"><img src="images/about/03.svg" alt="pic"></div>
+			<p>Регулярно повышаю свою квалификацию, тестирую техники и делюсь с вами опытом проделанной работы.</p>
+		</div>
+
+		<div class="about-item">
+			<div class="about-img"><img src="images/about/04.svg" alt="pic"></div>
+			<p>Имею огромный опыт в продвижении себя через социальную сеть Инстаграмм</p>
+		</div>
+
+		<div class="about-item">
+			<div class="about-img"><img src="images/about/05.svg" alt="pic"></div>
+			<p>Также владею аппаратными техниками перманентного макияжа.
+			</p>
+		</div>
+
+	</div>
+</section>
+<!-- end about -->
+
+<!-- courses -->
+<section class="courses" id="courses">
+	<div class="container decor-line">
+
+		<h2 class="title">Программа курсов:</h2>
+
+		<div class="courses-wrapper">
+			<div class="courses-item courses-item_1">
+				<div class="arrow"><img src="images/courses/1.png" alt="arrow"></div>
+				<div class="wrapper-top">
+					<h3>Успешный мастер-бровист 2.0</h3>
+					<div class="courses-desc">Повышение</div>
+					<div class="courses-text">
+						<p>-работа со сложными бровями</p>
+						<p>-процесс взаимодействия красителя на волос</p>
+						<p>-работа с неудачным татуажем</p>
+						<p>-сложное прореживание</p>
+						<p>-удодовый комплекс для бровей ( специфика работы)</p>
+					</div>
+				</div>
+
+				<div class="wrapper-bottom">
+					<div class="price">
+						<span>7 000 ₽</span>
+						<p>5 000 ₽</p>
+					 </div>
+					 <button class="main-btn bid">Забронировать</button>
+				</div>
+			</div>
+	
+			<div class="courses-item courses-item_2">
+				<div class="arrow"><img src="images/courses/1.png" alt="arrow"></div>
+				<div class="wrapper-top">
+					<h3>Успешный мастер-бровист</h3>
+					<div class="courses-desc">Базовый курс</div>
+		
+					<div class="courses-text">
+						<p>- Строение волоса и его структура. </p>
+						<p>- Восприятие красителя волосом.</p>
+						<p>- Как правильно подобрать краситель для каждого типа волосков.</p>
+						<p>- Все о подготовке кожи. Работа с жирной, сухой, нормальной кожей.</p>
+						<p>- Прореживание бровей( все за и против)</p>
+						<p>- Коррекция бровей (воск/пинцет)</p>
+						<p>- Работа с различными видами бровей</p>
+						<p>- Работа с асимметрией на лице</p>
+						<p>- Все техники окрашивания краской/хной</p>
+						<p>- Уход за окрашиванием. Как его продлить </p>
+					</br>
+						<p><b>+ Базовые знания ведения Инстаграм (где брать своих первых клиентов)</b></p>
+					</div>
+				</div>
+				
+				<div class="wrapper-bottom">
+					<div class="price">
+						<span>15 000 ₽</span>
+						<p>10 000 ₽</p>	
+					</div>
+					<button class="main-btn bid">Забронировать</button>
+				</div>
+
+			</div>
+	
+			<div class="courses-item courses-item_3">
+				<div class="arrow"><img src="images/courses/1.png" alt="arrow"></div>
+				<div class="wrapper-top">
+					<h3>Долговременная укладка бровей</h3>
+					<div class="courses-desc">Мастер-класс</div>
+		
+					<div class="courses-text">
+						<p>- Показания и противопоказания к процедуре</p>
+						<p>- Правильная подготовка кожи</p>
+						<p>- Выдержка составов</p>
+						<p>- Специфика работы с ними оставами</p>
+						<p>- Окрашивание после ДУ</p>
+						<p>- Отработка на двух моделях </p>
+						<p>- Уход за бровями после процедуры</p> 
+					</div>
+				</div>
+			
+				<div class="wrapper-bottom">
+					<div class="price">
+						<span>4 500 ₽</span>
+						<p>3 500 ₽ *</p>
+					</div>
+					<button class="main-btn bid">Забронировать</button>
+					<div class="plus-info">* для учеников курсов</div>
+				</div>
+				
+			</div>
+		</div>
+
+	</div>
+</section>
+<!-- end courses -->
+
+<!-- gallery -->
+<section class="gallery" id="gallery">
+	<div class="container decor-line">
+		<h2 class="title">Галерея</h2>
+		<h3>Мои работы</h3>
+		<div class="works carousel">
+			<div class="works-item"><a class="works-img" href="images/gallery/works/IMG.png"><img src="images/gallery/works/1.png" alt="works"></a></div>
+			<div class="works-item"><a class="works-img" href="images/gallery/works/2.png"><img src="images/gallery/works/2.png" alt="works"></a></div>
+			<div class="works-item"><a class="works-img" href="images/gallery/works/3.png"><img src="images/gallery/works/3.png" alt="works"></a></div>
+			<div class="works-item"><a class="works-img" href="images/gallery/works/4.png"><img src="images/gallery/works/4.png" alt="works"></a></div>
+			<div class="works-item"><a class="works-img" href="images/gallery/works/1.png"><img src="images/gallery/works/1.png" alt="works"></a></div>
+			<div class="works-item"><a class="works-img" href="images/gallery/works/2.png"><img src="images/gallery/works/2.png" alt="works"></a></div>
+		</div>
+			<div class="wrap-btn">
+				<div class="next-arrow works-btn">
+					<div class="next-btn unselectable">Смотреть больше</div>
+					<div class="middle-line"></div>
+					<div class="last-triangle"></div>
+				</div>
+			</div>
+		<h3>Мои ученицы</h3>
+		<div class="girls carousel">
+			<div class="girls-item"><a class="girls-img" href="images/gallery/schoolgirls/1.png"><img src="images/gallery/schoolgirls/1.png" alt="girl"></a></div>
+			<div class="girls-item"><a class="girls-img" href="images/gallery/schoolgirls/2.png"><img src="images/gallery/schoolgirls/2.png" alt="girl"></a></div>
+			<div class="girls-item"><a class="girls-img" href="images/gallery/schoolgirls/3.png"><img src="images/gallery/schoolgirls/3.png" alt="girl"></a></div>
+			<div class="girls-item"><a class="girls-img" href="images/gallery/schoolgirls/4.png"><img src="images/gallery/schoolgirls/4.png" alt="girl"></a></div>
+			<div class="girls-item"><a class="girls-img" href="images/gallery/schoolgirls/1.png"><img src="images/gallery/schoolgirls/1.png" alt="girl"></a></div>
+			<div class="girls-item"><a class="girls-img" href="images/gallery/schoolgirls/2.png"><img src="images/gallery/schoolgirls/2.png" alt="girl"></a></div>
+		</div>
+		<div class="wrap-btn girls-btn">
+			<div class="next-arrow">
+				<div class="next-btn unselectable">Смотреть больше</div>
+				<div class="middle-line"></div>
+				<div class="last-triangle"></div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- end gallery -->
+
+<!-- Request -->
+<section class="request">
+	<div class="container">
+		<div class="wooman"><img src="images/reserve/1.png" alt="wooman"></div>
+		<div class="form-2 form">
+			<h2 class="title">Забронируй место на курсе!</h2>
+			<div class="field">
+				<input type="text" name="UserName" class="field-input required alphanumeric" placeholder="Имя" pattern="^[а-яА-ЯёЁa-zA-Z0-9\\s]+$">
+				<input type="phone" name="phone" class="field-input required phone" placeholder="Номер телефона" pattern="[+0-9]{10,}">
+			</div>
+			
+			<button class="main-btn save-button">Оставить заявку</button>
+			
+		</div>
+	</div>
+</section>
+<!-- end Request -->
+
+<!-- reviews -->
+<section class="reviews" id="reviews">
+	<div class="container decor-line">
+		<h2 class="title">Отзывы</h2>
+		<div class="reviews-list">
+			<div class="reviews-item">
+				<img src="images/reviews/IMG_3391.jpg" alt="reviews">
+			</div>
+			<div class="reviews-item">
+				<img src="images/reviews/IMG_3393.jpg" alt="reviews">
+			</div>
+			<div class="reviews-item">
+				<img src="images/reviews/IMG_3391.jpg" alt="reviews">
+			</div>
+			<div class="reviews-item">
+				<img src="images/reviews/IMG_3393.jpg" alt="reviews">
+			</div>
+		</div>
+	</div>
+</section>
+<!-- end reviews -->
+
+<!-- contacts -->
+<section class="contacts" id="contacts">
+	<div class="container decor-line">
+		<div class="map-wrapper">
+			<div id="map"></div>
+		</div>
+		<div class="contacts-list">
+			<h2 class="title">Остались вопросы?</h2>
+			<div class="contacts-items">
+				<a class="phone" href="tel:89501052415">8 (950) 105-24-15</a>
+				<a class="mail" href="mailto:alena-kulish@inbox.ru">alena-kulish@inbox.ru</a>
+				<a class="insta" href="https://www.instagram.com/beloborodova_nas/"></a>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- end contacts -->
+
+<!-- footer -->
+	<section class="footer">
+		<div class="container">
+			<div class="footer-wrap">
+				<a href="#" class="logo"><img src="images/footer/logo.png" alt="logo"></a>
+				<div class="menu-wrapper">
+					<nav class="footer-menu">
+						<a href="#" class="footer-menu-item">Кто я</a>
+						<a href="#" class="footer-menu-item">Курсы</a>
+						<a href="#" class="footer-menu-item">Галерея</a>
+						<a href="#" class="footer-menu-item">Отзывы</a>
+						<a href="#" class="footer-menu-item">Контакты</a>
+					</nav>
+				</div>
+			<div class="copyrights">
+				<p>©2021</p>
+			</div>
+			</div>
+		</div>
+	</section> 
+<!-- end footer -->
+
+	<script src="js/jquery-validate.js"></script>
+	<script src="js/validate.js"></script>
+	<script src="js/app.min.js"></script>
+	<script src="js/jquery.fancybox.js"></script>
+	<script src="js/slick.min.js"></script>
+	
+	<script async
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDRIjgPmmflXq-2LPV5Htw_hLDUhxA49eA&callback=myMap">
+</script>
+	<script>
+	$(function () {
+			
+			
+		// Ручная валидация, доступная в любой момент
+		$('.form-1 .save-button').on('click', function () {
+			if(window.validation.isValid({ container: '.form-1' })) {
+
+				modalOpen();
+
+			}else{
+				$('.input-error').val("Введите текст");
+	
+			}
+		});
+
+		// Ручная валидация, доступная в любой момент
+		$('.form-2 .save-button').on('click', function () {
+			if(window.validation.isValid({ container: '.form-2' })) {
+
+				succesOpen();
+
+			}else{
+				$('.input-error').val("Введите текст");
+	
+			}
+		});
+		
+	});
+	</script>
+</body>
+</html>
+
+
+ 
